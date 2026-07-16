@@ -1,0 +1,13 @@
+streamlit
+groq
+tavily-python
+chromadb
+sentence-transformers
+pypdf
+gtts
+moviepy
+diffusers
+transformers
+huggingface_hub
+fpdf2
+torch # Although often pre-installed, good to include if explicitly used for dtypes
