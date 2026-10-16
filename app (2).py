@@ -79,7 +79,7 @@ if selected_page == 'Research Assistant':
     def chat_with_groq(messages):
         # Call the API with stream=True to get a streaming response
         return client.chat.completions.create(
-            model="meta-llama/llama-4-scout-17b-16e-instruct",
+            model="openai/gpt-oss-120b",
             messages=messages,  # Pass the entire message history for context
             temperature=0.7,
             stream=True
